@@ -15,3 +15,5 @@ To check the appendix B example:
   ./test
 
 Report is report.pdf
+
+The Tomasulo multi issue assignment is in the tomasulo-python folder (see tomasulo-python/README.md)

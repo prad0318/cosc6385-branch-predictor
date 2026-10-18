@@ -1,0 +1,11 @@
+# test 3: loads and stores, store to load forwarding
+Issue width = 1
+R1=8, F1=2.0
+Mem[8]=5.0, Mem[12]=7.0
+Ld F2 0(R1)
+Ld F3 4(R1)
+Add.d F4 F2 F3
+Sd F4 8(R1)
+Ld F5 8(R1)
+Mult.d F6 F5 F1
+Sd F6 12(R1)
